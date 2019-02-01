@@ -1,5 +1,7 @@
 require "pry"
-require './lib/intro_to_simple_array_manipulations.rb'
+require_relative '../lib/intro_to_simple_array_manipulations.rb'
+require_relative './spec_helper.rb'
+
 
 
 describe "#using_push" do 
